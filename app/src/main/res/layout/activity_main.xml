@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.quadraticcalculator.MainActivity">
+
+    <TextView
+        android:id="@+id/a"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/a"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/b"
+        android:layout_below="@+id/a"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/b"
+        android:textSize="18dp"/>
+
+    <EditText
+        android:id="@+id/input_a"
+        android:layout_toRightOf="@+id/a"
+        android:layout_marginLeft="25dp"
+        android:hint="@string/hint_input_number"
+        android:layout_width="match_parent"
+        android:inputType="numberSigned"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/input_b"
+        android:layout_toRightOf="@+id/a"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="35dp"
+        android:hint="@string/hint_input_number"
+        android:layout_width="match_parent"
+        android:inputType="numberSigned"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_result"
+        android:layout_below="@+id/input_b"
+        android:layout_marginTop="20dp"
+        android:text="@string/btn_result"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.quadraticcalculator.ResultActivity">
+
+    <TextView
+        android:id="@+id/detail"
+        android:text="@string/detail"
+        android:textSize="18dp"
+        android:paddingTop="10dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/orange"/>
+
+    <TextView
+        android:layout_below="@+id/detail"
+        android:id="@+id/equation"
+        android:hint="@string/equation_hint"
+        android:textSize="18dp"
+        android:paddingTop="5dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/orange"/>
+
+    <TextView
+        android:layout_below="@+id/equation"
+        android:id="@+id/result"
+        android:layout_marginTop="20dp"
+        android:hint="@string/result"
+        android:textSize="18dp"
+        android:paddingTop="10dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_below="@+id/result"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_marginTop="30dp"
+        android:text="@string/btn_back"
+        android:textSize="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</RelativeLayout>

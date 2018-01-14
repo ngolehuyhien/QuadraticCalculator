@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Giải phương trình bậc nhất</string>
+    <string name="hint_input_number">Nhập vào 1 số tự nhiên</string>
+    <string name="title">Giải phương trình bậc nhất</string>
+    <string name="result_title">Kết quả giải phương trình bậc nhất</string>
+    <string name="a">Nhập số a: </string>
+    <string name="b">Nhập số b: </string>
+    <string name="btn_result">KẾT QUẢ</string>
+    <string name="detail">Nghiệm của phương trình</string>
+    <string name="equation_hint">a + b = 0</string>
+    <string name="result">Kết quả</string>
+    <string name="btn_back">BACK</string>
+</resources>
